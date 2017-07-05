@@ -1,0 +1,12 @@
+﻿html {
+    background: url('https://static.pexels.com/photos/325185/pexels-photo-325185.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Exo', sans-serif;
+}
+.validation-summary-errors {
+    color: red;
+    font-weight: 700;
+    padding-left: 31px;
+}

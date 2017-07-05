@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
+    <link rel="stylesheet" href="assets/css/Header-Dark.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="article-list"></div>
+    <div class="container">
+        <h1 class="text-center">Vending Machine</h1>
+        <hr>
+    <div class="col-md-12">
+        <div class="row stylish-panel">
+            <div class="col-md-3 jazzy" id="item1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <p id="item1Id" style="text-align:left;"></p>
+                        <h3 class="panel-title" id="item1Name"></h3></div>
+                    <div class="panel-body">
+                        <h5 id="item1Price"></h5>
+                        <br />
+                        <p id="item1Qty"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 jazzy" id="item2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <p id="item2Id" style="text-align:left;"></p>
+                        <h3 class="panel-title" id="item2Name"></h3></div>
+                    <div class="panel-body">
+                        <h5 id="item2Price"></h5>
+                        <br />
+                        <p id="item2Qty"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 jazzy" id="item3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <p id="item3Id" style="text-align:left;"></p>
+                        <h3 class="panel-title" id="item3Name"></h3></div>
+                    <div class="panel-body">
+                        <h5 id="item3Price"></h5>
+                        <br />
+                        <p id="item3Qty"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 jazzy">
+                <h3 class="text-center" style="margin-top:-11px;">Total $ In</h3>
+                <div class="well" style="margin-bottom:12px;margin-right:14px;margin-left:10px;font-family: 'VT323', monospace; font-size: 35px; line-height: 1.5rem;" id="money"></div>
+                <div class="btn-group btn-group-justified" role="group"><a class="btn btn-default btn-sm" role="button" href="#" style="margin-right:20px;margin-left:22px;" id="dollar">Add Dollar</a><a class="btn btn-default btn-sm" role="button" href="#" style="margin:0px;margin-right:0px;" id="quarter">Add Quarter</a></div>
+                <div
+                class="btn-group btn-group-justified" role="group" style="margin-top:11px;"><a class="btn btn-default btn-sm" role="button" href="#" style="margin-right:20px;margin-left:22px;"id ="dime">Add Dime</a><a class="btn btn-default btn-sm" role="button" href="#" style="margin:0px;margin-right:0px;" id="nickle">Add Nickle</a></div>
+        </div>
+    </div>
+    <hr>
+    <div class="row stylish-panel">
+        <div class="col-md-3 jazzy" id="item4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p id="item4Id" style="text-align:left;"></p>
+                    <h3 class="panel-title" id="item4Name"></h3></div>
+                <div class="panel-body">
+                    <h5 id="item4Price"></h5>
+                    <br />
+                    <p id="item4Qty"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 jazzy" id="item5">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p id="item5Id" style="text-align:left;"></p>
+                    <h3 class="panel-title" id="item5Name"></h3></div>
+                <div class="panel-body">
+                    <h5 id="item5Price"></h5>
+                    <br />
+                    <p id="item5Qty"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 jazzy" id="item6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p id="item6Id" style="text-align:left;"></p>
+                    <h3 class="panel-title" id="item6Name"></h3></div>
+                <div class="panel-body">
+                    <h5 id="item6Price"></h5>
+                    <br />
+                    <p id="item6Qty"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h3 class="text-center" style="margin-top:-11px;">Messages </h3>
+            <div class="well" style="margin-bottom:12px;margin-right:14px;margin-left:10px;font-family: 'VT323', monospace; font-size: 25px;" id="responseMessage"></div>
+            <h3 style="margin-left:0px;margin-right:0px;">Item: </h3>
+            <div class="well" style="margin-bottom:12px;margin-right:14px;margin-left:10px;font-family: 'VT323', monospace; font-size: 35px; line-height: .5rem;" id="itemNumber"></div>
+            <button class="btn btn-default" type="button" style="padding-left:0px;width:187px;padding-right:0px;margin-left:11px;" id="purchase">Make Purchase</button>
+            <div class="btn-group" role="group"></div>
+            <div class="btn-group" role="group" style="margin-top:11px;"></div>
+        </div>
+        </div>
+    <div class="col-md-12" style="margin-bottom:34px;">
+        <hr>
+    <div class="row stylish-panel">
+        <div class="col-md-3 jazzy" id="item7">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p id="item7Id" style="text-align:left;"></p>
+                    <h3 class="panel-title" id="item7Name"></h3></div>
+                <div class="panel-body">
+                    <h5 id="item7Price"></h5>
+                    <br />
+                    <p id="item7Qty"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 jazzy" id="item8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p id="item8Id" style="text-align:left;"></p>
+                    <h3 class="panel-title" id="item8Name"></h3></div>
+                <div class="panel-body">
+                    <h5 id="item8Price"></h5>
+                    <br />
+                    <p id="item8Qty"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 jazzy" id="item9">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p id="item9Id" style="text-align:left;"></p>
+                    <h3 class="panel-title" id="item9Name"></h3></div>
+                <div class="panel-body">
+                    <h5 id="item9Price"></h5>
+                    <br />
+                    <p id="item9Qty"></p>
+                </div>
+            </div>
+        </div>
+            <div class="col-md-3">
+                <h3 class="text-center" style="margin-top:-11px;">Change</h3>
+                <div class="well" style="margin-bottom:12px;margin-right:14px;margin-left:10px;font-family: 'VT323', monospace; font-size: 35px;" id="change"></div>
+                <div class="btn-group btn-group-justified" role="group" id="changeReturn"><a class="btn btn-default" role="button" href="#" style="margin:0px;margin-right:auto;width:147px;margin-left:auto;">Change Return</a></div>
+                <div class="btn-group btn-group-justified" role="group" style="margin-top:11px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12" style="margin-bottom:34px;">
+        <ul class="list-group" id="errorMessages"></ul>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/untitled.js"></script>
+    <script src="assets/js/accounting.min.js"></script>
+    <script src="assets/js/home.js"></script>
+</body>
+</html>

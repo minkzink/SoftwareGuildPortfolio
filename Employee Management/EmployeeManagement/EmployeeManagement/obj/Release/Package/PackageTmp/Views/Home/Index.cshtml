@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html style="background: url('https://static.pexels.com/photos/325185/pexels-photo-325185.jpeg') no-repeat center center fixed; background-size: cover;">
+<head>
+    <link href="~/content/materialize/css/materialize.min.css" rel="stylesheet" />
+    <link href="~/content/materialize/css/materialize.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Exo:900" rel="stylesheet">
+    <link href="~/content/StyleSheet.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>Index</title>
+</head>
+<body>
+<div class="container">
+    <h1 style="text-align:center;margin-top:100px;">Welcome to Employee Management</h1>
+    <p style="text-align: center;">
+        <a href="@Url.Action("List", "Employees")" class="waves-effect waves-light btn">Click Here to View Your Employees<i class="material-icons left"></i></a>
+    </p>
+</div>
+<div>
+</div>
+    <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+    <script src="~/Scripts/materialize/materialize.min.js"></script>
+</body>
+</html>

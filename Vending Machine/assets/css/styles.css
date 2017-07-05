@@ -1,0 +1,19 @@
+h3 {
+    font-family: 'VT323', monospace;
+
+}
+h3#item1Name,h3#item2Name,h3#item3Name,h3#item4Name,h3#item5Name,h3#item6Name,h3#item7Name,h3#item8Name,h3#item9Name {
+    font-size: 33px;
+}
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+}
+.stylish-panel > .jazzy > div > div{
+    transition: 0.2s;
+}
+.stylish-panel > .jazzy > div:hover > div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}

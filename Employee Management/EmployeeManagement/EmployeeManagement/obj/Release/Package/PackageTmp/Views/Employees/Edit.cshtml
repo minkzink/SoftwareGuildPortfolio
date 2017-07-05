@@ -1,0 +1,61 @@
+﻿@model EmployeeManagement.Models.ViewModels.EditEmployeeViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html style="background: url('https://static.pexels.com/photos/325185/pexels-photo-325185.jpeg') no-repeat center center fixed; background-size: cover;">
+<head>
+    <link href="~/content/materialize/css/materialize.min.css" rel="stylesheet" />
+    <link href="~/content/materialize/css/materialize.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Exo:900" rel="stylesheet">
+    <link href="~/content/StyleSheet.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>Edit</title>
+</head>
+<body>
+<div class="container">
+<div class="row">
+    <h1>Edit an Employee</h1>
+    @Html.ValidationSummary()
+    @using (Html.BeginForm("Add", "Employees", FormMethod.Post))
+    {
+        @Html.HiddenFor(m=>m.EmployeeId)
+        <div class="col s6">
+            <label>First Name</label>
+            @Html.TextBoxFor(m=> m.FirstName)
+        </div>
+
+        <div class="col s6">
+            <label>Last Name</label>
+            @Html.TextBoxFor(m=> m.LastName)
+        </div>
+
+        <div class="col s6">
+            <label>Phone</label>
+            @Html.TextBoxFor(m=> m.Phone)
+        </div>
+
+        <div class="col s6">
+            <label>Department</label>
+            @Html.DropDownListFor(m => m.DepartmentId, Model.Departments)
+        </div>
+
+        <div class="col s12">
+            @Html.ActionLink("Cancel", "List", "Employees", null, new {@class = "waves-effect red lighten-2 btn" })
+            <button class="btn waves-effect waves-light" type="submit" name="action">Save</button>
+        </div>
+    }
+    </div>
+</div>
+<script src="~/Scripts/jquery-2.1.1.min.js"></script>
+<script src="~/Scripts/materialize/materialize.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('select').material_select();
+    });
+</script>
+</body>
+</html>
+
