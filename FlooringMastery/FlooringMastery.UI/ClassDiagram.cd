@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FlooringMastery.UI.BLL.OrderManager">
+    <Position X="0.75" Y="6.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAgQAAABAAAAA=</HashCode>
+      <FileName>BLL\OrderManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.UI.BLL.OrderManagerFactory">
+    <Position X="0.5" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\OrderManagerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.UI.BLL.Response&lt;T&gt;">
+    <Position X="4.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.UI.Data.ProdOrderRepository" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAAAAAAAAAAAAAAAAAEAAAAgQAAAAAAAAA=</HashCode>
+      <FileName>Data\ProdOrderRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FlooringMastery.UI.Data.ProdProductRepository" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Data\ProdProductRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlooringMastery.UI.Data.ProdTaxRepository" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\ProdTaxRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FlooringMastery.UI.Data.TestOrderRepository" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAAAAAAAAAAAAAAAAAEAAAAgQAAAAAAAAA=</HashCode>
+      <FileName>Data\TestOrderRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FlooringMastery.UI.Data.TestProductRepository" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Data\TestProductRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlooringMastery.UI.Data.TestTaxRepository" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\TestTaxRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FlooringMastery.UI.Models.Order">
+    <Position X="5.75" Y="5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAAAgAAGAAAAAAAAAQIAAQAAABAgABQAAAAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.UI.Models.ConsoleIO">
+    <Position X="3" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\ConsoleIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.UI.Models.Responses.Response">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Responses\Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.UI.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.UI.Workflows.AddWorkflow" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Workflows\AddWorkflow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FlooringMastery.UI.Workflows.DisplayWorkflow" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Workflows\DisplayWorkflow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FlooringMastery.UI.Workflows.EditWorkflow" BaseTypeListCollapsed="true">
+    <Position X="14" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Workflows\EditWorkflow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FlooringMastery.UI.Workflows.RemoveWorkflow" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Workflows\RemoveWorkflow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="FlooringMastery.UI.Data.IOrderRepository">
+    <Position X="12.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAAAAAAAAAAAAAAAAAEAAAAgQAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\IOrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FlooringMastery.UI.Data.ITaxRepository">
+    <Position X="15.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Models\Interfaces\ITaxRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FlooringMastery.UI.Workflows.IWorkflow">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Workflows\IWorkflow.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FlooringMastery.UI.Models.Interfaces.IProductRepository">
+    <Position X="9.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\IProductRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58568D95-50DA-4221-9551-7233469A47BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FlooringMaster.Tests</RootNamespace>
+    <AssemblyName>FlooringMaster.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.7.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.7.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FlooringMaster.BLL.Tests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlooringMaster.BLL\FlooringMaster.BLL.csproj">
+      <Project>{bf734aa0-6f10-4b49-850d-55ac485bc34f}</Project>
+      <Name>FlooringMaster.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlooringMaster.Data\FlooringMaster.Data.csproj">
+      <Project>{666036f7-d2b5-4fb1-801d-945b20d576b6}</Project>
+      <Name>FlooringMaster.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlooringMaster.Models\FlooringMaster.Models.csproj">
+      <Project>{0ebe319a-7638-4faf-8ee5-61ea8a37c828}</Project>
+      <Name>FlooringMaster.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlooringMaster.Workflows\FlooringMaster.Workflows.csproj">
+      <Project>{42b62abe-76f3-44bc-8ca4-ec4eb190b0a6}</Project>
+      <Name>FlooringMaster.Workflows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlooringMastery.UI\FlooringMastery.UI.csproj">
+      <Project>{2e2c3c44-728c-4719-ad2f-6e2f4f84ffa0}</Project>
+      <Name>FlooringMastery.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

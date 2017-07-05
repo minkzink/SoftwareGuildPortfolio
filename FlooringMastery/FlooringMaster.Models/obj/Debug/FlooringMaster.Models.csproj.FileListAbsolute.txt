@@ -1,0 +1,15 @@
+\\LAPTOP-URFQ67QM\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FlooringMaster.Models.dll.config
+\\LAPTOP-URFQ67QM\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FlooringMaster.Models.dll
+\\LAPTOP-URFQ67QM\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FlooringMaster.Models.pdb
+\\LAPTOP-URFQ67QM\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FileHelpers.dll
+\\LAPTOP-URFQ67QM\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FileHelpers.xml
+\\LAPTOP-URFQ67QM\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\obj\Debug\FlooringMaster.Models.dll
+\\LAPTOP-URFQ67QM\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\obj\Debug\FlooringMaster.Models.pdb
+C:\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FlooringMaster.Models.dll.config
+C:\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FlooringMaster.Models.dll
+C:\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FlooringMaster.Models.pdb
+C:\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FileHelpers.dll
+C:\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\bin\Debug\FileHelpers.xml
+C:\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\obj\Debug\FlooringMaster.Models.dll
+C:\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\obj\Debug\FlooringMaster.Models.pdb
+C:\repos\ben-rinehart.self-work\Labs\FlooringMastery\FlooringMastery\FlooringMaster.Models\obj\Debug\FlooringMaster.Models.csprojResolveAssemblyReference.cache
